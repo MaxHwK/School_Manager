@@ -1,0 +1,112 @@
+inherited f_list_inscrit: Tf_list_inscrit
+  Left = 1156
+  Height = 720
+  Top = 206
+  Width = 912
+  Caption = 'f_list_inscrit'
+  ClientHeight = 720
+  ClientWidth = 912
+  Color = clWhite
+  inherited pnl_titre: TPanel
+    Width = 912
+    Caption = 'Liste des inscrits'
+  end
+  inherited pnl_btn: TPanel
+    Top = 686
+    Width = 912
+    Caption = 'pnl_btn'
+    ClientWidth = 912
+    inherited pnl_btn_ligne: TPanel
+      Left = 399
+      Width = 513
+      ClientWidth = 513
+      inherited btn_line_detail: TSpeedButton
+        Left = 353
+        Hint = 'Détail d''une inscription'
+        Width = 40
+        OnClick = btn_line_detailClick
+      end
+      inherited btn_line_add: TSpeedButton
+        Left = 393
+        Hint = 'Nouvelle inscription'
+        Width = 40
+        OnClick = btn_line_addClick
+      end
+      inherited btn_line_delete: TSpeedButton
+        Left = 473
+        Hint = 'Supprimer une inscription'
+        Width = 40
+        OnClick = btn_line_deleteClick
+      end
+      inherited btn_line_edit: TSpeedButton
+        Left = 433
+        Hint = 'Modification une inscription'
+        OnClick = btn_line_editClick
+      end
+    end
+  end
+  inherited pnl_affi: TPanel
+    Height = 652
+    Top = 34
+    Width = 912
+    ClientHeight = 652
+    ClientWidth = 912
+    inherited sg_liste: TStringGrid
+      Height = 652
+      Width = 912
+      BorderStyle = bsNone
+      ColCount = 5
+      Columns = <      
+        item
+          PickList.Strings = (          )
+          Title.Color = 15461355
+          Title.Caption = 'n°'
+          Width = 50
+        end      
+        item
+          PickList.Strings = (          )
+          Title.Color = 15461355
+          Title.Caption = ''
+          Width = 50
+        end      
+        item
+          PickList.Strings = (          )
+          Title.Color = 15461355
+          Title.Caption = 'Identité'
+          Width = 180
+        end      
+        item
+          PickList.Strings = (          )
+          Title.Color = 15461355
+          Title.Caption = 'Commune domicile'
+          Width = 280
+        end      
+        item
+          PickList.Strings = (          )
+          Title.Color = 15461355
+          Title.Caption = 'Filiere'
+          Width = 350
+        end>
+      GridLineWidth = 1
+      Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goColSizing, goRowSelect]
+      RowCount = 5
+      ColWidths = (
+        50
+        50
+        180
+        280
+        350
+      )
+      RowHeights = (
+        22
+        22
+        22
+        22
+        22
+      )
+      Cells = (
+        0
+      )
+    end
+  end
+end
