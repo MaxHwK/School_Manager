@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.0\bin\x86_64-win64\fpc.exe" Date="1213100704"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq &quot;-FiC:\Users\giron\Desktop\Mes Documents\Cours\1ère Année\IHM\PrjIHM_GIRON_DJERMOUNE\PrjIHM\lib\x86_64-win64&quot; -FuC:\IUT\M2105_IHM\Lazarus\tp2\appli_fin_TP2 &quot;-FuC:\Users\giron\Desktop\Mes Documents\Applications\lazarus\components\ZEOSDBO-7.1.4-stable\packages\lazarus\lib\x86_64-win64&quot; -FuC:\lazarus\components\datetimectrls\lib\x86_64-win64\win32 -FuC:\lazarus\components\ideintf\units\x86_64-win64\win32 -FuC:\lazarus\components\lazcontrols\lib\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 &quot;-FuC:\Users\giron\Desktop\Mes Documents\Cours\1ère Année\IHM\PrjIHM_GIRON_DJERMOUNE\PrjIHM\&quot; &quot;-FUC:\Users\giron\Desktop\Mes Documents\Cours\1ère Année\IHM\PrjIHM_GIRON_DJERMOUNE\PrjIHM\lib\x86_64-win64\&quot; -dLCL -dLCLwin32 tp_projet.lpr"/>
+</CONFIG>
